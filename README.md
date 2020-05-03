@@ -7,6 +7,7 @@ Exploring JUnit and Mockito
 ##### Self explore findings #####
 * Test class variables are initialised. 
 * Instance variables are not kept between tests. 
+* Static variables are kept between tests. 
 
 &nbsp;
 

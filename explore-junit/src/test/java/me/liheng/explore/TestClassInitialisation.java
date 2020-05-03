@@ -7,8 +7,8 @@ import java.util.List;
 
 public class TestClassInitialisation {
 
-    private List<String> list = new ArrayList<>();
-    private String string =
+    private static List<String> list = new ArrayList<>();
+    private static String string =
             "*****************************\n" +
             "String has been initialised!!!\n" +
             "*****************************\n";
