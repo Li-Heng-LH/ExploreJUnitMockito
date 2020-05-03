@@ -8,7 +8,7 @@ Exploring JUnit and Mockito
 * Test class variables are initialised. 
 * Instance variables are not kept between tests. 
 * Static variables are kept between tests. 
-
+* Singleton can be applied.
 &nbsp;
 
 
