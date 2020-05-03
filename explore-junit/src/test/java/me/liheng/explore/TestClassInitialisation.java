@@ -27,7 +27,26 @@ public class TestClassInitialisation {
         list.add("a");
         list.add("list");
         list.add("******");
-
         System.out.println(list.toString());
     }
+
+    @Test
+    public void y_modifyList() {
+        modifyList();
+        System.out.println(list.toString());
+    }
+
+    @Test
+    public void z_printList() {
+        System.out.println("Printing list: " + list.toString());
+    }
+
+    private void modifyList() {
+        list.add("******");
+        list.add("x");
+        list.add("y");
+        list.add("z");
+        list.add("******");
+    }
+
 }
